@@ -25,6 +25,8 @@ else
 fi
 
 # Create and activate virtual environment
+python3 -m venv myenv
+source myenv/bin/activate
 # Install Python packages using pip in the virtual environment
 packages=(
     "Flask"
