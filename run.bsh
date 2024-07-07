@@ -1,3 +1,4 @@
+source myenv/bin/activate
 export FLASK_APP=app.py  
 export FLASK_RUN_HOST=192.168.1.82 
 export FLASK_RUN_PORT=9999 
